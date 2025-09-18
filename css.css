@@ -1,0 +1,629 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    background: #fff4d5df; 
+    font-family: Arial,Verdana,Open Sans,Fira Snas,Lucida Sans Unicode;
+}
+.overall-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+/* navigation bar and side bar style*/
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    background: #49647d;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border: none;
+    position: fixed;
+    top: 0;
+    display: block;
+}
+.nav-bar a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.home{
+    color: red;
+}
+.ser{
+    color: yellow; 
+}
+.About{
+    color: blue;
+} 
+#menue{
+    position: fixed;
+    top: 25px;
+    right: 5px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+}
+hr{
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right,#300a00,#8c1d00,#ff3400);
+    border: none;
+    position: fixed;
+    top: 100px;
+}
+.side-bar{
+    display: none;
+    color: white;
+    background: #49647d;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 100px;
+}
+
+.side-bar a{
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+.side-bar a:hover{
+    background: white;
+    color: black;
+}
+/* side bar end */
+
+
+
+/* evidence and button style code*/
+.evid{
+    width: 100%;
+    height: fit-content; 
+    margin-top: 90px;    
+}
+#wel{
+    color: #49647d;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.img-cont{
+    max-width: 100%;
+    height: auto;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+    }
+/*#wel{
+    text-align: center;
+    display: block;
+    color: blue;
+    padding: 10px;
+}*/
+.btns{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    width: 150px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder; 
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.calendly {
+    background: #49647d;
+    color: white;
+}
+.email{
+    border: 1px solid #49647d;  
+}
+.email a{
+    color: #49647d;
+    text-align: center;
+}
+/* evidence end*/
+
+
+
+
+
+/* the hero section style code*/
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.hero > div{
+    width: 100%;
+    height: 150px;
+    background: wheat;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid black;
+    font-size: 20px;  
+}
+.hero > div p{
+    color: #848484;
+    font-size: 1rem;
+}
+#icon{
+    font-size: 50px;
+    color: goldenrod;
+}
+.contact_form{
+    width: 100%;
+    height: available;
+    text-align: center;
+    border: 5px solid black;
+} 
+.form > input{
+    width: 80%;
+    height: 30px;
+    display: bloc;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+#message{
+    height: 100px;
+    text-align: center;
+}
+#submit_btn{
+    color: white;
+    width: 100px;
+    height: 50px;
+    background: #49647d;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* hero end */
+
+
+/* introduction style code*/
+.intro{
+  width: fit-content;
+  height: fit-content;
+}
+.content{
+    margin: 10px;
+    text-align: justify;
+}
+/* introduction end*/
+
+
+/* footer style code*/
+.footer{
+    width: 100%;
+    height: fit-content;
+    background: #1a242d;
+    display: flex;
+    flex-direction: column;
+}
+.footer div{
+    width: 100%;
+    height: fit-content;
+    color: goldenrod;
+    padding-left: 10px;
+    text-align: left;
+    border-bottom: 0.5px solid gray;
+    padding: 10px 10px;
+}
+.service p a,.address a{
+    color: gray;
+    text-align: left;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+}
+.contact a{
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+    margin: 10px;
+    display: block;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+    
+i p{
+    color: #414141;
+    display: inline;
+    margin: 2px;
+}
+/* footer end */
+
+
+/* about style code*/
+.about-overall{
+    text-align: center;
+}
+
+.about{
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+    color: black; 
+    padding: 10px 10px;
+      
+} 
+.img-container{
+    width: 100%;
+    height: auto;
+}
+.img-container img{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+/* about end*/
+
+
+
+
+/* contact in the navigation bar style code*/
+#contact{
+    padding: 10px;
+}
+#contact_detail{
+    padding-left: 10px;
+    margin-top: 5px;
+    width: inherit;
+    height: 0;
+    background: transparent;
+    overflow-y: hidden;
+    transition-duration: 1s;
+    box-shadow: 0 0 10px #cacaca;
+    line-height: normal;
+}
+#contact_detail a{
+    display: block;
+}
+/* contact end*/
+
+
+
+/* why choose us style code*/
+.choosen_container{
+    background: white;
+    padding: 10px;
+}
+.why_choosen_us{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.expert{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #909090;
+    width: auto;
+    height: 130px;
+    overflow-y: scroll;
+    margin: 10px;
+    padding: 5px;
+}
+.expert::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+.expert span{
+     float: left;
+     padding: 25px;
+     margin-right: 5px;
+     height: 120px;
+}
+/* why choosen us end*/
+
+
+/* service and About page*/
+#practice,#About_section{
+    width: 100%;
+    height: auto;
+    margin-top: 110px; 
+    padding: 10px;
+    text-align: justify;
+}
+#practice_box,#About{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+#practice p{
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+/* end */
+
+
+
+/* attorney section*/
+.attorney{
+    margin-top: 100px;
+    text-align: j;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.attorney div{
+    border-bottom: 1px solid black;
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.attorney div img{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+    border: 3px solid black;
+    object-fit: cover;
+} 
+.attorney > div > h1{
+           text-align: center;
+       }
+.copyright{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+} 
+
+
+
+/* Media query */
+@media screen and (min-width: 1024px){
+    article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        }
+        section{
+            width: 49%;
+            height: fit-content;
+        }
+        .btns{
+            flex-direction: row;
+        }
+        #menue{
+            display: none; 
+        }
+        .side-bar{
+           display: inline;
+           color: white;
+           background: #49647d;
+           width: auto;
+           height: fit-content;
+           position: fixed;
+           right: 0px;
+           top: 80px;
+        }
+        .side-bar a,#contact{
+            display: inline;
+            color: white;
+            text-align: left;
+            text-decoration: none;
+            padding: 10px 10px; 
+        }
+        #practice_box{
+            flex-direction: row;
+            flex-flow: wrap;
+            justify-content: center;
+            
+        }
+        #practice_box #drop{
+            width: 49%;
+            height: fit-content;
+            text-align: justify;
+            padding: 10px;
+            margin: 1px;
+        }
+        
+        #About_section h1{
+            text-align: center;
+        }
+        #About{
+            flex-flow: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        #About div{
+            width: 50%;
+            height: fit-content;
+            }
+            
+       .choosen_container{
+            background: white;
+            padding: 10px;
+            width: 49%;
+            height: 100%;
+           }
+       .hero > div{
+            height: 250px;
+            box-shadow: 0 0 15px #909090;
+            margin: 10px;
+        }
+       .expert{
+           height: 200px;
+       }
+       .attorney{
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
+           width: 100%;
+           height: fit-content;
+           text-align: justify;
+           flex-flow: wrap;
+       }
+       .attorney div{
+           width: 49%;
+           height: auto;
+           text-align: justify; 
+           margin: 1px;
+       }
+       .attorney > div > h1{
+           text-align: center;
+       }
+       intro{
+            width: fit-content;
+            height: fit-content;
+       }
+
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* CSS rules for screens between 768px and 1020px wide */
+  article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        }
+        section{
+            width: 49%;
+            height: fit-content;
+        }
+        .btns{
+            flex-direction: row;
+        }
+        #menue{
+            display: block; 
+        }
+        .side-bar{
+           display: none;
+           color: white;
+           background: #49647d;
+           width: auto;
+           height: fit-content;
+           position: fixed;
+           right: 0px;
+           top: 100px;
+        }
+        .side-bar a,#contact{
+            display: block;
+            color: white;
+            text-align: left;
+            text-decoration: none;
+            padding: 10px 10px; 
+        }
+        intro{
+            width: fit-content;
+            height: fit-content;
+        }
+        #practice_box{
+            flex-direction: row;
+            flex-flow: wrap;
+            justify-content: center;
+            
+        }
+        #practice_box #drop{
+            width: 49%;
+            height: fit-content;
+            text-align: justify;
+            padding: 10px;
+            margin: 1px;
+        }
+        
+        #About_section h1{
+            text-align: center;
+        }
+        #About{
+            flex-flow: wrap;
+            align-items: center;
+            justify-content: center;          
+            
+        }
+        #About div{
+            width: 50%;
+            height: fit-content;
+            }
+            
+       .choosen_container{
+            background: white;
+            padding: 10px;
+            width: 49%;
+            height: 100%;
+           }
+       .hero > div{
+            height: 250px;
+            box-shadow: 0 0 15px #909090;
+            margin: 10px;
+        }
+       .expert{
+            height: 200px;
+       }
+       .attorney{
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
+           width: 100%;
+           height: fit-content;
+           text-align: justify;
+           flex-flow: wrap;
+       }
+       .attorney div{
+           width: 49%;
+           height: auto;
+           text-align: justify; 
+           margin: 1px;
+       }
+       .attorney > div > h1{
+           text-align: center;
+       }
+
+
+}
+}
